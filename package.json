@@ -1,0 +1,41 @@
+{
+  "name": "native-types",
+  "version": "1.0.0",
+  "description": "list of all javascript native types and some utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && lab --assert code --threshold 100 test",
+    "lint": "standard",
+    "format": "standard --format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/native-types.git"
+  },
+  "keywords": [
+    "native",
+    "primitive",
+    "javascript",
+    "vanilla",
+    "types",
+    "list",
+    "utils",
+    "is",
+    "type"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/native-types/issues"
+  },
+  "homepage": "https://github.com/tjmehta/native-types",
+  "devDependencies": {
+    "101": "^1.2.0",
+    "code": "^1.5.0",
+    "lab": "^6.2.0",
+    "standard": "^5.3.1"
+  },
+  "dependencies": {
+    "direct-instance-of": "^1.0.0"
+  }
+}
