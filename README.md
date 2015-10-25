@@ -30,6 +30,7 @@ console.log(nativeTypes)
   [Function: Function],
   ...more...
 */
+```
 
 #### Primitive types array
 Primitives include strings, booleans, numbers (incl. Inf & NaN), null, undefined
@@ -44,6 +45,7 @@ console.log(nativeTypes)
   [Function: Number]
 ]
 */
+```
 
 #### isNative util
 Checks if a value is or instance of a class native to JS
@@ -84,3 +86,6 @@ isPrimitive(undefined)        // true
 isPrimitive(Infinity)         // true
 isPrimitive(NaN)              // true
 ```
+
+## License
+MIT

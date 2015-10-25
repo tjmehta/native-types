@@ -4,7 +4,7 @@
   "description": "list of all javascript native types and some utils",
   "main": "index.js",
   "scripts": {
-    "test": "lab --assert code --threshold 100 test",
+    "test": "npm run lint && lab --assert code --threshold 100 test",
     "lint": "standard",
     "format": "standard --format"
   },
