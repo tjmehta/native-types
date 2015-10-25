@@ -10,7 +10,7 @@ npm install native-types
 
 ## Usage
 
-#### Native types array
+### Native types array
 All classes native to JavaScript
 ```js
 var nativeTypes = require('native-types')
@@ -32,12 +32,12 @@ console.log(nativeTypes)
 */
 ```
 
-#### Primitive types array
+### Primitive types array
 Primitives include strings, booleans, numbers (incl. Inf & NaN), null, undefined
 ```js
 var primitives = require('native-types').primitives
 
-console.log(nativeTypes)
+console.log(primitives)
 /*
 [
   [Function: Boolean],
@@ -47,7 +47,7 @@ console.log(nativeTypes)
 */
 ```
 
-#### isNative util
+### isNative
 Checks if a value is or instance of a class native to JS
 ```js
 isNative(Array)              // true
@@ -72,7 +72,7 @@ isNative(new Float64Array()) // true
 // ...more...
 ```
 
-#### isPrimitive util
+### isPrimitive
 ```js
 // Checks if a value is a string, boolean, number (Inf, NaN), null, or undefined
 isPrimitive(10)               // true
