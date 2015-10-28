@@ -1,4 +1,4 @@
-# native-types[![Build Status](https://travis-ci.org/tjmehta/native-types.svg?branch=master)](https://travis-ci.org/tjmehta/native-types) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+# native-types [![Build Status](https://travis-ci.org/tjmehta/native-types.svg?branch=master)](https://travis-ci.org/tjmehta/native-types) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 list of all javascript native types and some utils
 supports ES5 and ES6 types, and is cross compatible
 
