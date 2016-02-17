@@ -50,6 +50,7 @@ console.log(primitives)
 ### isNative
 Checks if a value is or instance of a class native to JS
 ```js
+var isNative = require('native-types').isNative
 isNative(Array)              // true
 isNative(ArrayBuffer)        // true
 isNative(Boolean)            // true
@@ -73,8 +74,9 @@ isNative(new Float64Array()) // true
 ```
 
 ### isPrimitive
+Checks if a value is a string, boolean, number (Inf, NaN), null, or undefined
 ```js
-// Checks if a value is a string, boolean, number (Inf, NaN), null, or undefined
+var isPrimitive = require('native-types').isPrimitive
 isPrimitive(10)               // true
 isPrimitive(new Number(10)    // true
 isPrimitive('hi')             // true
